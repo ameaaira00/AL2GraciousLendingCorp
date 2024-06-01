@@ -1,24 +1,27 @@
 import React from 'react';
 import './Header.css'; // Import the CSS file
+import { FaPhone, FaUser } from 'react-icons/fa'; // Import the Phone icon from react-icons/fa
+import { FaFacebook } from 'react-icons/fa'; // Import the Facebook icon from react-icons/fa
 
 const Header = () => {
     return (
-        <header>
-            <div className="container">
-                <div className="branding">Gracious Group Lending Phils. Corp. - AL2 Loan Consultant</div>
-                <div className="nav-container">
-                    <nav className="nav">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#loan-info">Loan Info</a></li>
-                            <li><a href="#about">About us</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                
+        <nav className="navbar">
+            <div className="left-section">
+                 <FaUser />
+                <span> AL2 - Loan Consultant</span>
             </div>
-        </header>
+            <ul className="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#loan-info">Requirements</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="https://www.facebook.com/LoansForPensioners?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><FaFacebook /></a></li>
+            </ul>
+            <div className="right-section">
+                <FaPhone />
+                <span> 09277211555 / 09198059300</span>
+            </div>
+        </nav>
     );
 }
 

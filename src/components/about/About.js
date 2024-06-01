@@ -1,5 +1,6 @@
 import React from 'react';
-import "./About.css"
+import "./About.css";
+
 const About = () => {
     return (
         <section id="about" className="section">
@@ -10,7 +11,7 @@ const About = () => {
                     Study Terms and Conditions in the Disclosure Statement before proceeding with the loan transaction. Sa Gracious Group, kayo ang bida!
                 </p>
                 <p>
-                    <strong>Alma Aloveros</strong> is the Loan Consultant of Gracious Group Lending Philippines Corporation. For more information, visit our original site at <a href="https://graciousphils.com/">graciousphils.com</a>.
+                    <strong>Alma Aloveros</strong> is the Loan Consultant of Gracious Group Lending Philippines Corporation. For more information, visit our original site at <a href="https://graciousphils.com/" className="subtle-link">graciousphils.com</a>.
                 </p>
             </div>
         </section>

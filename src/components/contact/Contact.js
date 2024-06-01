@@ -8,26 +8,17 @@ const Contact = () => {
                 <h2>Contact Us</h2>
                 <p>If you have any questions, feel free to reach out to us.</p>
                 <div className="contact-info">
-                    <p><strong>For inquiries:</strong></p>
-                    <p>Look for Alma:</p>
-                    <p>☎ 09277211555 (Globe)</p>
-                    <p>☎ 09198059300 (Smart)</p>
+                    <p><strong>For inquiries, message us on:</strong></p>
+                    <div className="contact-links">
+                        <a href="https://www.facebook.com/LoansForPensioners?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="facebook-link">Facebook Page</a>
+                        <a href="https://www.facebook.com/alma.aloveros" target="_blank" rel="noopener noreferrer" className="facebook-link">Alma's Personal Account</a>
+                    </div>
+                    <p><strong>Or contact us at:</strong></p>
+                    <div className="phone-numbers">
+                        <p><strong>Globe:</strong> 09277211555</p>
+                        <p><strong>Smart:</strong> 09198059300</p>
+                    </div>
                 </div>
-                <form>
-                    <div className="form-group">
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" id="name" name="name" />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" id="email" name="email" />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="message">Message:</label>
-                        <textarea id="message" name="message"></textarea>
-                    </div>
-                    <button className="button" type="submit">Submit</button>
-                </form>
             </div>
         </section>
     );

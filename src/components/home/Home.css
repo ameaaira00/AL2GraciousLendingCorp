@@ -5,40 +5,129 @@
     position: relative;
 }
 
+
 .highlight-container {
     position: absolute; 
-    bottom: 0; 
+    top: 1em;
     left: 0; 
     padding: 20px;
 }
 
 .interest {
-    color: #f9f9f9;
-    padding: 0;
+    padding: 0 2em;
+    margin-bottom: 0.5em;
 }
 
 .interest h1 {
-    font-size: 7em;
+    
+    color: #f9f9f9;
+    width: 20%;
+    font-size: 5em;
     font-weight: bold;
-    margin:0;
+    margin-bottom: 0.2em;
     padding: 0;
-    line-height: 0.5em;
+    line-height: 1em;
 }
 
 .interest h2 {
-    margin-bottom: 0.5em;
+    color: #f9f9f9;
+    font-size: 1.8em;
+    line-height: 1.5em;
     padding: 0;
+    margin-bottom: 0;
 }
 
 .info {
+    padding: 0 2em;
     font-size: 0.9em;
     color: #bebebe;
     margin-bottom: 0.1em;
 }
 
 .small-info {
+
+    padding: 0 2em;
     font-size: 0.8em;
     color: #979797;
     margin: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.inquire-button {
+    display: inline-block;
+    background-color: #f39c12;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.inquire-button:hover {
+    background-color: #4682B4;
+}
+
+
+@media screen and (max-width: 768px) {
+    .highlight-container{
+        top:20em;
+    }
+    .interest h1 {
+        width: 100%;    
+        color: #f9f9f9;
+        font-size: 3em; 
+        line-height: 1em;
+    }
+
+    
+    .highlight-container {
+        top: 25em;
+    }
+
+    .interest h1 {
+        margin-bottom: 0.3em;
+        font-size: 2.5em;
+    }
+    .interest h2 {
+        font-size: 1.5em;
+        line-height: 1.3em;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .highlight-container{
+        top:20em;
+    }
+    .interest h1 {
+        width: 100%;    
+        color: #f9f9f9;
+        font-size: 3em; 
+        line-height: 1em;
+    }
+
+    
+    .highlight-container {
+        top: 35%
+    }
+
+    .interest h1 {
+        margin-bottom: 0.3em;
+        font-size: 2.5em;
+    }
+    .interest h2 {
+        font-size: 1.5em;
+        line-height: 1.3em;
+        margin: 0;
+    }
 }
