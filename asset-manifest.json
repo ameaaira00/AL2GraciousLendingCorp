@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ameaaira00.github.io/AL2GraciousLendingCorp/static/css/main.2a282775.css",
+    "main.js": "/ameaaira00.github.io/AL2GraciousLendingCorp/static/js/main.9ab5d1a1.js",
+    "static/media/Photo-by-Marcus-Aurelius.jpg": "/ameaaira00.github.io/AL2GraciousLendingCorp/static/media/Photo-by-Marcus-Aurelius.ff7af44795e97c08a3a6.jpg",
+    "index.html": "/ameaaira00.github.io/AL2GraciousLendingCorp/index.html",
+    "main.2a282775.css.map": "/ameaaira00.github.io/AL2GraciousLendingCorp/static/css/main.2a282775.css.map",
+    "main.9ab5d1a1.js.map": "/ameaaira00.github.io/AL2GraciousLendingCorp/static/js/main.9ab5d1a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a282775.css",
+    "static/js/main.9ab5d1a1.js"
+  ]
+}
