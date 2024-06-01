@@ -32,9 +32,9 @@ const LoanInfo = () => {
                             </div>
                             <p>sa mga sumusunod na numero:</p>
                             <ul>
-                                <li>09413432432 (Sun)</li>
-                                <li>09432532524 (Smart)</li>
-                                <li>09542435 (Globe)</li>
+                                <li>0925 530 0455 (Sun)</li>
+                                <li>0908 814 3775 (Smart)</li>
+                                <li>0917 634 9946 (Globe)</li>
                             </ul>
                             <p>At hintayin ang aming reply!</p>
                             <p>Halimbawa:
