@@ -1,0 +1,44 @@
+.home {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.highlight-container {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    padding: 20px;
+}
+
+.interest {
+    color: #f9f9f9;
+    padding: 0;
+}
+
+.interest h1 {
+    font-size: 7em;
+    font-weight: bold;
+    margin:0;
+    padding: 0;
+    line-height: 0.5em;
+}
+
+.interest h2 {
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+.info {
+    font-size: 0.9em;
+    color: #bebebe;
+    margin-bottom: 0.1em;
+}
+
+.small-info {
+    font-size: 0.8em;
+    color: #979797;
+    margin: 0;
+    margin-bottom: 0.5em;
+}

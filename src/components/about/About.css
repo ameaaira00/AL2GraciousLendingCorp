@@ -1,0 +1,13 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.6; 
+}
+
+.content p strong {
+    font-weight: bold;
+}

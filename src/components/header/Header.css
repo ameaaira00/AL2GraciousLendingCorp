@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f39c12;
+    z-index: 1000;
+    height: 60px; 
+    padding: 0 20px;
+    width: 100%;
+}
+
+.branding {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-container {
+    display: flex;
+    margin-right: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        display: none;
+    }
+}
