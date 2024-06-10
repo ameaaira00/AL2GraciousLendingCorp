@@ -39,32 +39,47 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Updating `gh-pages` Branch for GitHub Pages Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To ensure that your changes are reflected on the deployed page hosted on GitHub, follow these steps:
 
-### Code Splitting
+#### 1. Configure `package.json`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ensure that your `package.json` file is configured as follows:
 
-### Analyzing the Bundle Size
+```json
+{
+  "homepage": "https://ameaaira00.github.io/AL2GraciousLendingCorp",
+  "name": "mama-website-loan",
+  ...
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 2. Install `gh-pages`
 
-### Making a Progressive Web App
+First, install `gh-pages` as a development dependency by running:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm install gh-pages --save-dev
+```
 
-### Advanced Configuration
+#### 3. Deploy Changes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once `gh-pages` is installed, deploy your changes to the `gh-pages` branch by executing:
 
-### Deployment
+```
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This command will automatically build your React application and push the generated build files to the `gh-pages` branch. After a successful deployment, your changes will be reflected on the deployed page hosted on GitHub.
